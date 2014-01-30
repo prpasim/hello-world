@@ -1,3 +1,4 @@
+//This is the line causing issue in the conflict branch
 #include <stdio.h>
 
 int adding(int a ,int b)
@@ -16,6 +17,12 @@ int mul(int a, int b)
 {
 	int value;
 	value =  a * b;
+}
+
+int val (int a, int b)
+{
+	int value = 0;
+	value = b - a;
 }
 
 int main ()
